@@ -12,7 +12,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: temper
+    - name: temper-zmk-config
       remote: temper-zmk-config
       revision: main
       import: config/west.yml
