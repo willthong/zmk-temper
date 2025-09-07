@@ -7,13 +7,13 @@ manifest:
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: temper-zmk-config
-      url-base: https://github.com/raeedcho
+      url-base: https://github.com/willthong
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
     - name: temper-zmk-config
       remote: temper-zmk-config
-      revision: main
+      revision: module
   self:
     path: config
