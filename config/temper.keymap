@@ -70,21 +70,21 @@
             key-positions = <21 30>;
             bindings = <&sl FUN>;
         };
-        combo_lnumlock {
-            timeout-ms = <50>;
-            key-positions = <23 31>;
-            bindings = <&tog NUM>;
-        };
-        combo_lvimlock {
-            timeout-ms = <50>;
-            key-positions = <22 31>;
-            bindings = <&tog VIM>;
-        };
-        combo_lfunlock {
-            timeout-ms = <50>;
-            key-positions = <21 31>;
-            bindings = <&tog FUN>;
-        };
+        /* combo_lnumlock { */
+        /*     timeout-ms = <50>; */
+        /*     key-positions = <23 31>; */
+        /*     bindings = <&tog NUM>; */
+        /* }; */
+        /* combo_lvimlock { */
+        /*     timeout-ms = <50>; */
+        /*     key-positions = <22 31>; */
+        /*     bindings = <&tog VIM>; */
+        /* }; */
+        /* combo_lfunlock { */
+        /*     timeout-ms = <50>; */
+        /*     key-positions = <21 31>; */
+        /*     bindings = <&tog FUN>; */
+        /* }; */
         combo_rnum {
             timeout-ms = <50>;
             key-positions = <26 33>;
